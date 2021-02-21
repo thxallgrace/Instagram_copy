@@ -30,6 +30,7 @@ dependencies {
     //파이어베이스 로그인 지원
     implementation 'com.google.firebase:firebase-auth:20.0.2'
     implementation 'com.google.firebase:firebase-storage:19.2.1'
+    implementation 'com.google.firebase:firebase-firestore:22.1.0'
 
     implementation 'com.facebook.android:facebook-android-sdk:[4,5)'
 
@@ -39,4 +40,5 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.0'
     implementation 'com.google.android.gms:play-services-auth:19.0.0'
+
 }
